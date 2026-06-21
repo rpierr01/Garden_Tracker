@@ -1,13 +1,14 @@
-# GardenTracker (Suivi Plantes)
+# Suivi de Plantes d'Intérieur
 
-GardenTracker est une application de répertoire botanique qui vous permet de recenser, d'identifier et de suivre les plantes de votre jardin. Les végétaux photographiés sont identifiés automatiquement à l'aide de l'API [Pl@ntNet](https://plantnet.org/) et sont stockés localement dans une base de données SQLite unique (images incluses), ce qui rend le projet entièrement portable.
+Il s'agit d'une application de répertoire botanique qui vous permet de recenser, d'identifier et de suivre les plantes de votre intérieur. Les végétaux photographiés sont identifiés automatiquement à l'aide de l'API [Pl@ntNet](https://plantnet.org/) et sont stockés localement dans une base de données SQLite unique (images incluses), ce qui rend le projet entièrement portable.
 
 ## Fonctionnalités
 
-- **Identification IA :** Téléchargez une photo et obtenez son nom commun et scientifique grâce à l'API Pl@ntNet.
-- **Répertoire Local :** Sauvegardez l'historique complet, les notes et les dates de plantation.
-- **Portabilité :** Toutes les données et images (BLOB) sont centralisées dans un seul fichier SQLite (`plants.db`).
-- **Galerie :** Visualisez les espèces de votre jardin directement depuis une interface web conviviale propulsée par Streamlit.
+- **Identification IA :** Téléchargez une photo et obtenez son nom commun et scientifique.
+- **Répertoire Local :** Sauvegardez l'historique complet, les notes et les dates d'acquisition.
+- **Suivi photographique :** Ajoutez plusieurs photos pour une même plante afin de suivre son évolution dans le temps.
+- **Portabilité :** Toutes les données et images (BLOB) sont centralisées dans un seul fichier SQLite.
+- **Galerie :** Visualisez les espèces de votre intérieur directement depuis une interface web conviviale propulsée par Streamlit.
 
 ## Prérequis
 
